@@ -1,0 +1,16 @@
+--1)
+-- select * from sales.salesorderdetail 
+-- where productid = 799 
+-- order by orderqty desc
+--2)
+-- select max(discountpct) from sales.specialoffer
+--3)
+-- select sum(scrappedqty) from production.workorder where productid=529
+--4)
+-- select * from purchasing.vendor where name like 'G%'
+--5)
+-- select * from person.person where firstname like '_a%'
+--6)
+-- select * from person.emailaddress limit 20
+-- 7)
+select * from person.person where additionalcontactinfo is not NULL
